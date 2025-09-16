@@ -12,15 +12,6 @@
 ## 👀 Contributors
 <div align="center">
 <table>
-<thead>
-<tr>
-<th align="center">김민상</th>
-<th align="center">남궁렬</th>
-<th align="center">박보은</th>
-<th align="center">신유빈</th>
-<th align="center">이현서</th>
-</tr>
-</thead>
 <tbody>
 <tr>
 <td align="center" style="padding: 20px;">
@@ -30,12 +21,12 @@
 </td>
 <td align="center" style="padding: 20px;">
   <a href="https://github.com/skarndfuf1" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="남궁렬" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/85174279?v=4" alt="남궁렬" width="120" height="120" style="max-width: 100%;">
   </a>
 </td>
 <td align="center" style="padding: 20px;">
   <a href="https://github.com/boeun02" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="박보은" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/93779288?v=4" alt="박보은" width="120" height="120" style="max-width: 100%;">
   </a>
 </td>
 <td align="center" style="padding: 20px;">
@@ -45,7 +36,7 @@
 </td>
 <td align="center" style="padding: 20px;">
   <a href="https://github.com/dlgustj206" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="이형서" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/104957240?v=4" alt="이형서" width="120" height="120" style="max-width: 100%;">
   </a>
 </td>
 </tr>
