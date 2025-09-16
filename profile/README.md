@@ -1,1 +1,61 @@
-## 스마트 자전거 대여소
+# 🚲 자전거 대여소 서비스
+
+## 🗓️ Development Period
+- Planning: 2025.09.01 ~ 2025.09.23 
+- Development: 2025.09.24 ~ 2025.11.xx
+
+## 📖 Service Background
+- 공공데이터포털 자전거 대여소 데이터와 OSM 활용  
+- DEM·토지피복도 등 래스터 데이터 기반 분석을 통한 자전거 추천 경로 검토  
+- 자전거 대여소 위치·상태를 통합 제공하여 이용 편의성 개선 및 서비스 확산
+
+## 👀 Contributors
+<div align="center">
+<table>
+<thead>
+<tr>
+<th align="center">김민상</th>
+<th align="center">남궁렬</th>
+<th align="center">박보은</th>
+<th align="center">신유빈</th>
+<th align="center">이현서</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" style="padding: 20px;">
+  <a href="https://github.com/MinSang22Kim" target="_blank" rel="noopener noreferrer nofollow">
+    <img src="https://avatars.githubusercontent.com/u/129925473?v=4" alt="김민상" width="120" height="120" style="max-width: 100%;">
+  </a>
+</td>
+<td align="center" style="padding: 20px;">
+  <a href="https://github.com/skarndfuf1" target="_blank" rel="noopener noreferrer nofollow">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="남궁렬" width="120" height="120" style="max-width: 100%;">
+  </a>
+</td>
+<td align="center" style="padding: 20px;">
+  <a href="https://github.com/boeun02" target="_blank" rel="noopener noreferrer nofollow">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="박보은" width="120" height="120" style="max-width: 100%;">
+  </a>
+</td>
+<td align="center" style="padding: 20px;">
+  <a href="mailto:yubinee@naver.com" target="_blank" rel="noopener noreferrer nofollow">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="신유빈" width="120" height="120" style="max-width: 100%;">
+  </a>
+</td>
+<td align="center" style="padding: 20px;">
+  <a href="https://github.com/dlgustj206" target="_blank" rel="noopener noreferrer nofollow">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="이형서" width="120" height="120" style="max-width: 100%;">
+  </a>
+</td>
+</tr>
+<tr>
+<td align="center"><b>김민상</b></td>
+<td align="center"><b>남궁렬</b></td>
+<td align="center"><b>박보은</b></td>
+<td align="center"><b>신유빈</b></td>
+<td align="center"><b>이현서</b></td>
+</tr>
+</tbody>
+</table>
+</div>
