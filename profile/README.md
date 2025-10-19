@@ -1,4 +1,4 @@
-# 🚲 [스마트 자전거 지도 플랫폼 (RideOn)](https://www.saessakbori.site/rideon)
+# 🚲 스마트 자전거 지도 플랫폼: [RideOn](https://www.saessakbori.site)
 
 ## 🗓️ 1. 개발 기간
 
@@ -27,7 +27,7 @@
 | 🗺️ **자전거 대여소 조회** | 카테고리별 선택/해제, 필터링, 목록 및 검색 기능 제공 |
 | 🧰 **편의시설 정보** | 대여소·수리점·공공화장실·음수대 등 POI(Point of Interest) 위치 및 상세 정보 제공 |
 | 🛤️ **추천 자전거 코스** | 거리·소요시간·난이도별 자전거 코스 탐색 및 사용자 평점 제공 |
-| 🧭 **자전거 길찾기** | 지도에서 출발지와 도착지를 클릭하면 OSRM(Open Source Routing Machine)을 통해 최적 경로 탐색 및 시각화 |
+| 🧭 **자전거 길찾기** | 지도에서 출발지와 도착지를 클릭하면 OSRM(Open Source Routing Machine)기반 최적 경로 탐색 및 시각화 |
 | 🌡️ **날씨·온도 히트맵** | OpenWeatherMap API 기반 실시간 온도 분포 시각화 |
 | ⛰️ **고도·경사도 분석** | DEM(수치표고모델) 기반 구간별 경사도 시각화 (초록/노랑/빨강 그라데이션 표시) |
 | 🌞 **일조량 분석** | 시간대별 그림자(그늘) 구간을 시뮬레이션하여 코스별 일조량 비교 |
@@ -44,7 +44,7 @@
 | **Backend** | Spring Boot, PostgreSQL(PostGIS), Swagger |
 | **API** | OSRM(Open Source Routing Machine), OpenWeatherMap, 기상청 API |
 | **Data Source** | 공공데이터포털 자전거 대여소 및 편의시설 데이터 |
-| **배포** | Nginx, Docker, AWS EC2 |
+| **배포** | Nginx, Docker, AWS EC2, Vercel |
 
 - **OpenLayers + WebGL 렌더링**으로 수천 개의 벡터 데이터를 부드럽게 시각화  
 - **PostGIS**를 이용해 출발·도착지 및 waypoint 기준 반경 내 편의시설 검색  
@@ -61,8 +61,8 @@
 
 ## 🌐 6. 서비스 및 API 안내
 
-- **서비스 주소 (Frontend 배포 URL):** [RideOn](https://www.saessakbori.site/rideon)
-- **API 문서 (Backend Swagger):**  [RideOn API Docs](https://api.saessakbori.site/rideon/docs)
+- **서비스 주소 (Frontend 배포 URL):** [RideOn](https://www.saessakbori.site)
+- **API 문서   (Backend Swagger):**  [RideOn API Docs](https://api.saessakbori.site/rideon/docs)
 
 ## 📍 7. 향후 확장 계획
 
@@ -79,7 +79,7 @@
 - **전국 행정구역 확장**  
   서울 외 지역(수도권 및 주요 광역시)까지 데이터 확대 및 행정구역 레이어 표시
   
-## 👀 8. Contributors
+## 👀 8. 기여자
 <div align="center">
 <table>
 <tbody>
