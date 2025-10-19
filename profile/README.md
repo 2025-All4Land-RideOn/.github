@@ -50,7 +50,7 @@
 - **PostGIS**를 이용해 출발·도착지 및 waypoint 기준 반경 내 편의시설 검색  
 - **OSRM 경로 API**를 통해 실시간 자전거 길찾기 및 GeoJSON 기반 Polyline 렌더링
 
-## 🧠 5. 데이터 요약
+## 🧠 5. 사용한 공공데이터
 
 | 구분 | 데이터 수량 |
 |------|-------------|
@@ -59,25 +59,25 @@
 | 🏪 편의시설 (facility) | 1,129 |
 | 🚰 음수대 (drinking_fountain) | 1,685 |
 
-## 🌐 6. 서비스 및 API 안내
+## 🌐 6. 서비스 및 문서 자료 모음
 
-- **서비스 주소 (Frontend 배포 URL):** [RideOn](https://www.saessakbori.site)
-- **API 문서   (Backend Swagger):**  [RideOn API Docs](https://api.saessakbori.site/rideon/docs)
+| 링크 | 설명 |
+|------|------|
+| [🚲 RideOn (서비스 메인)](https://www.saessakbori.site) | Frontend 배포 URL |
+| [📘 RideOn API Docs (API 문서)](https://api.saessakbori.site/rideon/docs) | Backend Swagger 문서 |
+| [🧭 RideOn Notion (프로젝트 문서)](https://www.notion.so/269661ef461580818cd7fefc26e88926) | 기획 및 회의록 관리 |
+| [🎨 RideOn Figma (UI/UX 디자인)](https://www.figma.com/design/AzxO7twZlOLPr0hIdqBPal/%EC%83%88%EC%8B%B9%EB%B3%B4%EB%A6%AC?node-id=22-296&p=f&t=5g8FcqEsFJtWj6WG-0) | 서비스 디자인 시안 |
+| [🗂️ RideOn ERD (데이터베이스 구조)](https://app.diagrams.net/#H2025-All4Land-RideOn%2FERD%2Fmain%2FSessakBoriERD.drawio%23%7B%22pageId%22%3A%22R2lEEEUBdFMjLlhIrx00%22%7D) | DB 구조 및 관계 다이어그램 |
+| [💻 RideOn GitHub Repository (저장소)](https://github.com/2025-All4Land-RideOn) | 프로젝트 원본 코드 저장소 |
 
 ## 📍 7. 향후 확장 계획
 
-- **AI 추천 경로 시스템 및 AI 문의 접수**  
-  날씨·경사도·일조량·편의시설 접근성을 종합 분석하여 개인 맞춤형 코스 추천  
-  사용자의 문의를 AI가 자동 분류·응답하는 기능 추가 예정
-  
-- **모바일 네비게이션 모드**  
-  실시간 이동 경로 안내 및 음성 내비게이션 지원  
-
-- **소셜 로그인 및 북마크 기능 강화**  
-  카카오·네이버 로그인 안정화 및 개인화된 즐겨찾기 데이터 저장  
-
-- **전국 행정구역 확장**  
-  서울 외 지역(수도권 및 주요 광역시)까지 데이터 확대 및 행정구역 레이어 표시
+| 항목 | 설명 |
+|------|------|
+| 🤖 **AI 추천 경로 시스템 및 AI 문의 접수** | 날씨·경사도·일조량·편의시설 접근성을 종합 분석하여 개인 맞춤형 코스 추천 및 AI 자동 응답 기능 추가 예정 |
+| 🧭 **모바일 네비게이션 모드** | 실시간 이동 경로 안내 및 음성 내비게이션 지원 |
+| 🔑 **소셜 로그인 및 북마크 기능 강화** | 카카오·네이버 로그인 안정화 및 개인화된 즐겨찾기 데이터 저장 |
+| 🗺️ **전국 행정구역 확장** | 서울 외 지역(수도권 및 주요 광역시)까지 데이터 확대 및 행정구역 레이어 표시 |
   
 ## 👀 8. 기여자
 <div align="center">
