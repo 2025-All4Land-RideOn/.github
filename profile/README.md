@@ -44,7 +44,7 @@
 | **Backend** | Spring Boot, PostgreSQL(PostGIS), Swagger |
 | **API** | OSRM(Open Source Routing Machine), OpenWeatherMap, 기상청 API |
 | **Data Source** | 공공데이터포털 자전거 대여소 및 편의시설 데이터 |
-| **배포** | Nginx, Docker, AWS EC2, Vercel |
+| **Deployment** | Nginx, Docker, AWS EC2, Vercel, Cloudflare |
 
 - **OpenLayers + WebGL 렌더링**으로 수천 개의 벡터 데이터를 부드럽게 시각화  
 - **PostGIS**를 이용해 출발·도착지 및 waypoint 기준 반경 내 편의시설 검색  
