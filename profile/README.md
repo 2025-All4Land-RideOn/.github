@@ -13,8 +13,8 @@ RideOn은 **대여·결제 중심으로 구성된 기존 자전거 서비스의 
 
 ## 3. 주요 기능
 
-주요 기능의 실제 동작은 아래 시연 영상에서 확인할 수 있습니다.<br>
-👉 [![RideOn 시연 영상](https://img.youtube.com/vi/l5gHjiKMxwA/0.jpg)](https://youtu.be/l5gHjiKMxwA)
+주요 기능의 실제 동작은  
+👉 [RideOn 시연 영상 바로 보기](https://www.youtube.com/watch?v=l5gHjiKMxwA)에서 확인할 수 있습니다.
 
 | 구분 | 기능 설명 |
 |------|------------|
