@@ -1,4 +1,4 @@
-# 🚲 스마트 자전거 지도 플랫폼: [RideOn](https://www.saessakbori.site)
+# 🚲 스마트 자전거 통합 지도 플랫폼: [RideOn](https://www.saessakbori.site)
 
 ## 1. 개발 기간
 
@@ -7,13 +7,14 @@
 
 ## 2. 서비스 개요
 
-**첫째**, RideOn은 대여·결제 중심 자전거 서비스의 한계를 문제로 정의하고, 길찾기·경사도·편의시설 정보를 핵심으로 하는 지도 중심 자전거 플랫폼을 목표로 합니다.
+RideOn은 **대여·결제 중심으로 구성된 기존 자전거 서비스의 한계**를 문제로 정의하고, 길찾기·경사도·편의시설 정보를 핵심으로 제공하는 지도 중심 자전거 플랫폼을 목표로 기획되었습니다.
 
-**둘째**, 자전거 라이딩에 영향을 주는 경사도·날씨 정보를 위치 데이터와 함께 분석하여, 라이딩 환경을 지도에서 한눈에 파악할 수 있도록 합니다.
-
-**셋째**, 모든 정보를 하나의 지도 화면에 통합하여, 사용자가 즉시 판단하고 활용할 수 있는 직관적인 라이딩 경험을 제공합니다.
+자전거 라이딩에 영향을 주는 경사도와 날씨 정보를 위치 데이터와 함께 분석하고, 대여소·음수대·공공화장실 등 **편의시설 정보를 하나의 지도 화면에 통합하여 라이딩 환경을 한눈에 파악하고 즉시 판단할 수 있는 직관적인 라이딩 경험을 제공**합니다.
 
 ## 3. 주요 기능
+
+주요 기능의 실제 동작은 아래 시연 영상에서 확인할 수 있습니다.<br>
+👉 [![RideOn 시연 영상](https://img.youtube.com/vi/l5gHjiKMxwA/0.jpg)](https://youtu.be/l5gHjiKMxwA)
 
 | 구분 | 기능 설명 |
 |------|------------|
@@ -22,10 +23,11 @@
 | 추천 자전거 코스 | 거리, 소요시간, 난이도 기준 자전거 코스 탐색 기능 제공 |
 | 자전거 길찾기 | 지도에서 출발지와 도착지를 선택하면 OSRM 기반 최적 자전거 경로를 계산하고 지도에 시각화 |
 | 경사도 분석 | Open Elevation API를 활용하여 경로 구간별 고도 값을 수집하고 경사도 정보 제공 |
-| 등고선 레이어 | DEM 기반 등고선 데이터를 지도 레이어로 제공하여 지형 형태 시각화 |
-| 음영기복도 레이어 | DEM 기반 음영기복도(Hillshade)를 통해 지형의 고저 차이를 직관적으로 표현 |
-| 날씨 정보 조회 | 기상청 API를 활용한 현재 날씨 정보 제공 |
-| 지도 레이어 전환 | 기본 지도(OSM), 행정구역, 등고선, 음영기복도 등 지도 레이어 선택 및 전환 기능 |
+| 지형 레이어 | DEM 기반 등고선 및 음영기복도(Hillshade)를 지도 레이어로 제공하여 지형의 고저 차이를 시각화 |
+| 기본 지도 레이어 전환 | OpenStreetMap, Mapbox 위성, Mapbox 3D, VWorld 기본지도·위성지도·하이브리드 지도 간 전환 기능 |
+| 행정구역 레이어 | 시·군·구 등 행정구역 경계를 별도의 레이어로 제공하여 지도 위에 표시 |
+| 반경 분석 기능 | 현재 위치를 기준으로 1km, 3km, 5km 반경 원을 생성하여 주변 편의시설 접근 범위 시각화 |
+| 날씨 레이어 | 기상청 API를 활용하여 기온, 강수, 풍속 정보를 지도 레이어 형태로 제공 |
 | 현재 위치 및 좌표 정보 | 현재 위치 표시 및 지도 영역의 좌표·범위 정보 실시간 확인 기능 |
 | AI 문의 기능 ‘라온이’ | 사용자의 질문에 대해 서비스 이용 및 기능 안내를 제공하는 AI 기반 문의 기능 |
 | 북마크 | 자주 사용하는 대여소 및 편의시설을 즐겨찾기로 저장 |
@@ -34,24 +36,21 @@
 
 | 구분 | 기술 |
 |------|------|
-| **Frontend** | React, OpenLayers, Vite, WebGL |
-| **Backend** | Spring Boot, PostgreSQL(PostGIS), Swagger |
-| **API** | OSRM(Open Source Routing Machine), OpenWeatherMap, 기상청 API |
-| **Data Source** | 공공데이터포털 자전거 대여소 및 편의시설 데이터 |
-| **Deployment** | Nginx, Docker, AWS EC2, Vercel, Cloudflare |
-
-- **OpenLayers + WebGL 렌더링**으로 수천 개의 벡터 데이터를 부드럽게 시각화  
-- **PostGIS**를 이용해 출발·도착지 및 waypoint 기준 반경 내 편의시설 검색  
-- **OSRM 경로 API**를 통해 실시간 자전거 길찾기 및 GeoJSON 기반 Polyline 렌더링
+| **Frontend** | React, OpenLayers, CesiumJS, Vite, WebGL |
+| **Backend** | Spring Boot, PostgreSQL, PostGIS, GeoServer, Swagger |
+| **API** | OSRM API, Open Elevation API, 기상청 API |
+| **Data Source** | 공공데이터포털 자전거 대여소 및 편의시설 데이터, DEM(수치표고모델) |
+| **Deployment** | Nginx, Docker, AWS EC2, Vercel, Cloudflare, GitHub Actions (CI/CD) |
 
 ## 5. 사용한 공공데이터
 
-| 구분 | 데이터 수량 |
+| 구분 | 데이터 정보 |
 |------|-------------|
-| 대여소 (station) | 1,482 |
-| 화장실 (toilet) | 4,585 |
-| 편의시설 (facility) | 1,129 |
-| 음수대 (drinking_fountain) | 1,685 |
+| 대여소 (station) | 1,482개 |
+| 화장실 (toilet) | 4,585개 |
+| 편의시설 (facility) | 1,129개 |
+| 음수대 (drinking_fountain) | 1,685개 |
+| 수치표고모델 (DEM) | 구간별 고도 분석용 래스터 데이터 |
 
 ## 6. 서비스 및 문서 자료 모음
 
