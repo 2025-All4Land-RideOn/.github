@@ -64,43 +64,42 @@ RideOn은 **대여·결제 중심으로 구성된 기존 자전거 서비스의 
 | [💻 RideOn GitHub Repository (저장소)](https://github.com/2025-All4Land-RideOn) | 프로젝트 원본 코드 저장소 |
   
 ## 7. 기여자
-<div align="center">
+
 <table>
 <tbody>
 <tr>
-<td align="center" style="padding: 20px;">
+<td style="padding: 20px;">
   <a href="https://github.com/MinSang22Kim" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/129925473?v=4" alt="김민상" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/129925473?v=4" alt="김민상" width="135" height="145">
   </a>
 </td>
-<td align="center" style="padding: 20px;">
+<td style="padding: 20px;">
   <a href="https://github.com/skarndfuf1" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/85174279?v=4" alt="남궁렬" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/85174279?v=4" alt="남궁렬" width="135" height="145">
   </a>
 </td>
-<td align="center" style="padding: 20px;">
+<td style="padding: 20px;">
   <a href="https://github.com/boeun02" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/93779288?v=4" alt="박보은" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/93779288?v=4" alt="박보은" width="135" height="145">
   </a>
 </td>
-<td align="center" style="padding: 20px;">
+<td style="padding: 20px;">
   <a href="https://github.com/shinubin" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/100883938?v=4" alt="신유빈" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/100883938?v=4" alt="신유빈" width="135" height="145">
   </a>
 </td>
-<td align="center" style="padding: 20px;">
+<td style="padding: 20px;">
   <a href="https://github.com/dlgustj206" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="https://avatars.githubusercontent.com/u/104957240?v=4" alt="이현서" width="120" height="120" style="max-width: 100%;">
+    <img src="https://avatars.githubusercontent.com/u/104957240?v=4" alt="이현서" width="135" height="145">
   </a>
 </td>
 </tr>
 <tr>
-<td align="center"><b>김민상</b></td>
-<td align="center"><b>남궁렬</b></td>
-<td align="center"><b>박보은</b></td>
-<td align="center"><b>신유빈</b></td>
-<td align="center"><b>이현서</b></td>
+<td><b>김민상</b></td>
+<td><b>남궁렬</b></td>
+<td><b>박보은</b></td>
+<td><b>신유빈</b></td>
+<td><b>이현서</b></td>
 </tr>
 </tbody>
 </table>
-</div>
